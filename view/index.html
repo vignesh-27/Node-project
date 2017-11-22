@@ -36,7 +36,14 @@
            </div>
         </nav>
 
-        <div id="demo"></div>
+        <div id="demo"> </div>
+        <script>
+    
+        //json script to send value to index file name variable
+        $.get( "/getvar", function( data ) {
+          name = data.name;
+        });
+    </script>
 
 <script>
 //jquery of direct index load for home page 
